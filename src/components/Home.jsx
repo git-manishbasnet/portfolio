@@ -18,8 +18,9 @@ export const Home = () => {
         <div className="flex flex-col md:flex-row">
           <div className="order-2 md:order-1 md:w-1/2 mt-12 md:mt-24 space-y-2">
             <span className="text-xl">Welcome to my website</span>
-            <div className="flex space-x-1 text-2xl md:text-4xl">
+            <div className="flex  flex-col space-x-1 text-2xl md:text-4xl">
               <h1 className="whitespace-nowrap">Hello, I'm a </h1>
+              
               <ReactTyped
                 className="text-blue-700"
                 strings={["Developer", "Programmer", "Designer", "Student"]}
