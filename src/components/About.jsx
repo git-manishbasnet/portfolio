@@ -1,5 +1,5 @@
 import React from 'react'
-
+import cv from '../../public/mycv.pdf';
 export const About = () => {
   return (
     <div name="About" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20">
@@ -51,8 +51,8 @@ export const About = () => {
           You can download my CV to learn more about my professional journey and skills.
         </p>
         <a 
-          href="./././public/mycv.pdf" 
-          download 
+          href={cv}
+          download ="Manishbc_CV.pdf"
           className="inline-block bg-green-500 text-white font-semibold py-2 px-4 rounded mt-2 hover:bg-green-600"
         >
           Download CV
