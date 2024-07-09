@@ -5,6 +5,7 @@ import { SiGmail } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 import pic from "/public/manish.jpg";
 
@@ -13,7 +14,7 @@ export const Home = () => {
     <>
       <div
         name="Home"
-        className="max-w-screen-2xl  mx-auto px-4 md:px-20 my-20"
+        className="max-w-screen-2xl mx-auto px-4 md:px-20 my-20"
       >
         <div className="flex flex-col md:flex-row">
           <div className="order-2 md:order-1 md:w-1/2 mt-12 md:mt-24 space-y-2">
@@ -31,9 +32,8 @@ export const Home = () => {
             </div>
             <br />
             <p className="text-sm md: text-md text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-              enim reiciendis necessitatibus beatae aspernatur officiis, totam
-              tenetur non, ipsam quia dolorem blanditiis culpa?
+              I am an engineering student who loves to code and design. I am currently studying in IOE Purwanchal campus, Dharan.
+              Please go through the About section to know more about me.
             </p>
             <br />
             {/*Social media icons*/}
@@ -42,19 +42,22 @@ export const Home = () => {
                 <h1 className="font-bold">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/" target="blank">
+                    <a href="https://www.facebook.com/profile.php?id=100088847739904" target="blank">
                       {" "}
                       <FaFacebook className="text-2xl cursor-pointer " />
                     </a>
                   </li>
                   <li>
-                    <a href="https://web.whatsapp.com/" target="blank">
+                    <a href="https://wa.me/9823463895" target="blank">
                       {" "}
                       <FaWhatsappSquare className="text-2xl cursor-pointer " />
                     </a>
                   </li>
                   <li>
-                    <a href="https://mail.google.com/" target="blank">
+                  <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmanishbc01%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2hmDCNX8VVtQpuT1koi63PMVIxfsB7h9JKHE92ifck_AZYvzQneXENI40_aem_d8m9EemXB95esbkom0m8jA&h=AT2fmmJZp-5i3sCbouh0e3qCagjgtQndi5GWx3MdxxE2-6WvFoLFdMlmAW1z7wNQ5P300LQvR-7iNsU_2SE8CWDe_t55Sgw1XTNekm36EpaxVi6LIowCFyYuGXLm" target="blank"> <FaInstagram size={24} /></a>
+                  </li>
+                  <li>
+                    <a href="mailto:mb2060127@gmail.com" target="blank">
                       {" "}
                       <SiGmail className="text-2xl cursor-pointer " />
                     </a>
@@ -72,9 +75,9 @@ export const Home = () => {
               </div>
             </div>
           </div>
-          <div className="order-1 mt-8 md:w-1/2 md:ml-48 md:mt-20">
+          <div className="order-1 mt-8  items-center md:w-1/2  md:ml-12 md:mt-10 md:mb-10">
             <img
-              className="rounded-full md:w-[450px] md:h-[450px]"
+              className=" rounded-full md:w-[450px] md:h-[450px]"
               src={pic}
               alt=""
             />

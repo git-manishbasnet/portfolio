@@ -33,7 +33,7 @@ export const Portfolio = () => {
       className="max-w-screen-2xl  mx-auto px-4 md:px-20 mt-10"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">portfolio</h1>
+        <h1 className="text-3xl font-bold mb-5">Portfolio</h1>
         <span className="underline font-semibold">My Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
           {cardItems.map(({ logo, name, id }) => (

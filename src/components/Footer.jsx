@@ -1,6 +1,6 @@
 import React from "react";
-import { FaFacebook, FaInstagram,FaTwitter, FaWhatsapp } from "react-icons/fa";
-
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 export default function Footer() {
   return (
     <>
@@ -14,11 +14,11 @@ export default function Footer() {
              <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmanishbc01%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2hmDCNX8VVtQpuT1koi63PMVIxfsB7h9JKHE92ifck_AZYvzQneXENI40_aem_d8m9EemXB95esbkom0m8jA&h=AT2fmmJZp-5i3sCbouh0e3qCagjgtQndi5GWx3MdxxE2-6WvFoLFdMlmAW1z7wNQ5P300LQvR-7iNsU_2SE8CWDe_t55Sgw1XTNekm36EpaxVi6LIowCFyYuGXLm" target="blank"> <FaInstagram size={24} /></a>
              
               <a href="https://wa.me/9823463895" target="_blank"> <FaWhatsapp size={24} /></a>
-             
-            </div>
+                  <a href="mailto:mb2060127@gmail.com" target="blank"><SiGmail size={24}/></a>
+                  </div>
             <div className="mt-8 border-t border-gray-700 pt-8 flex flex-col items-center">
-              <p className="text-sm">&copy; 2021 All rights reserved</p>
-              <p className="text-sm">Supportive partner </p>
+              <p className="text-sm">&copy; 2024 All rights reserved</p>
+              <p className="text-sm">@manishbasnet </p>
             </div>
           </div>
         </div>
