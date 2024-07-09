@@ -51,7 +51,7 @@ export const About = () => {
           You can download my CV to learn more about my professional journey and skills.
         </p>
         <a 
-          href="/path/to/your-cv.pdf" 
+          href="./././public/mycv.pdf" 
           download 
           className="inline-block bg-green-500 text-white font-semibold py-2 px-4 rounded mt-2 hover:bg-green-600"
         >
