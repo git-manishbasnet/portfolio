@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "/public/manish.jpg";
+import pic from "/manish.jpg"; // Files in the public directory are served at the root path.
 import { IoMdMenu } from "react-icons/io";
 import { ImCross } from "react-icons/im";
 import { useState } from "react";

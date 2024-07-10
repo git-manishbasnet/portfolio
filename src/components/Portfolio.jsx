@@ -25,6 +25,7 @@ export const Portfolio = () => {
       id: 4,
       logo: clogo,
       name: "C",
+      sourcecodelink:""
     },
   ];
   return (
@@ -36,7 +37,7 @@ export const Portfolio = () => {
         <h1 className="text-3xl font-bold mb-5">Portfolio</h1>
         <span className="underline font-semibold">My Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
-          {cardItems.map(({ logo, name, id }) => (
+          {cardItems.map(({ logo, name, id,sourcecodelink}) => (
             <div
               key={id}
               className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"
@@ -56,9 +57,11 @@ export const Portfolio = () => {
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
                   Video
                 </button>
-                <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded">
+                <a href={sourcecodelink}  >
+               <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded">
                   Source Code
-                </button>
+               </button>
+               </a>
               </div>
             </div>
           ))}
