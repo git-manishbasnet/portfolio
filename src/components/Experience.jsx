@@ -45,13 +45,13 @@ export const Experience = () => {
 
     <h1 className='text-3xl font-bold mb-5'>Experience</h1>
     <p
-    className=''>I have more than 2 years of experience in below technologies.
+    className=''>I have more than 1 year of experience in below technologies.
         </p>
     <div className='grid grid-cols-2 md:grid-cols-5 gap-7 my-3'>
         {
             cardItems.map(({logo,name,id})=>(
                 <div key={id} className='flex flex-col items-center justify center border-[2px] rounded-full  md: w-[150px] md:h-[150px] p-1 cursor-pointer hover:scale-110 duration-300'>
-                <img src={logo} alt="" className=' w-full  rounded-full ' />
+                <img src={logo} alt={name} className=' w-full  rounded-full ' />
                <div>
                 <div className=' px-2 font-bold text-xl mb-2'>{name}</div>
                
